@@ -51,4 +51,4 @@ Les suggestions, issues ou améliorations sont les bienvenues !
 ---
 
 **Auteur :** [2MJ-DEV](https://github.com/2MJ-DEV)  
-**Contact :** [LinkedIn](https://www.linkedin.com/in/jules-mukadi-552045297/) | [WhatsApp](https://wa.me/243998535521)
+**Contact :** [LinkedIn](https://www.linkedin.com/in/mukadi-jules/) | [WhatsApp](https://wa.me/243998535521)
