@@ -1,6 +1,6 @@
 # Ultimate Stack Workshop
 
-Bienvenue dans **Ultimate Stack Workshop**, mon dépôt personnel d'entraînement aux technologies web modernes.  
+Bienvenue dans `Ultimate Stack Workshop`, mon dépôt personnel d'entraînement aux technologies web modernes.  
 Ce repository centralise mes projets, tests, et expérimentations avec plusieurs stacks populaires de base que j'utilise.
 
 ## 🚀 Objectif
