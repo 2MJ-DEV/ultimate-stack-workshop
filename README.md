@@ -47,7 +47,11 @@ Ce dépôt est en constante évolution. Il s'agit avant tout d'un espace de **te
 
 Les suggestions, issues ou améliorations sont les bienvenues !  
 - Consulte le fichier [CONTRIBUTING.md](CONTRIBUTING.md) pour en savoir plus sur comment contribuer à ce dépôt.
+---
+## 📄 Licence
 
+Ce projet est sous licence **MIT**.  
+- Consulte le fichier [LICENSE](LICENSE) pour plus d’informations.
 ---
 
 **Auteur :** [2MJ-DEV](https://github.com/2MJ-DEV)  
