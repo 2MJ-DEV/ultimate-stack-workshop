@@ -14,14 +14,14 @@ L'objectif de ce dépôt est de :
 
 Ce dépôt couvre principalement les stacks suivants :
 
-| Technologie    | Description                                                                 |
-|----------------|------------------------------------------------------------------------------|
-| **JavaScript (ES6+)** | Langage principal utilisé pour tous les projets.                            |
-| **React.js**    | Bibliothèque JavaScript pour construire des interfaces utilisateur dynamiques. |
-| **Next.js**     | Framework basé sur React pour le rendu côté serveur, les API et l'optimisation. |
-| **Node.js**     | Environnement d'exécution backend basé sur le moteur V8 de Chrome.            |
-| **MongoDB**     | Base de données NoSQL orientée documents.                                     |
-| **Rasengan.js** | Framework backend moderne inspiré de Koa/Express.        
+| Logo | Technologie       | Description                                                                 |
+|------|-------------------|-----------------------------------------------------------------------------|
+| ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | **JavaScript (ES6+)** | Langage principal utilisé pour tous les projets. |
+| ![React](https://img.shields.io/badge/-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | **React.js** | Bibliothèque JavaScript pour construire des interfaces utilisateur dynamiques. |
+| ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) | **Next.js** | Framework basé sur React pour le rendu côté serveur, les API et l'optimisation. |
+| ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) | **Node.js** | Environnement d'exécution backend basé sur le moteur V8 de Chrome. |
+| ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) | **MongoDB** | Base de données NoSQL orientée documents. |
+| 🌀 | **Rasengan.js** | Framework backend moderne inspiré de Koa/Express. |       
 
 ## 📁 Structure des dossiers
 
@@ -41,6 +41,12 @@ Chaque dossier contient un projet ou un atelier spécifique :
 Ce dépôt est en constante évolution. Il s'agit avant tout d'un espace de **tests**, **apprentissage** et **exploration**.
 
 > 🔧 N'hésitez pas à cloner, explorer et proposer des améliorations si vous en avez envie !
+
+---
+## 🤝 Contribuer
+
+Les suggestions, issues ou améliorations sont les bienvenues !  
+- Consulte le fichier [CONTRIBUTING.md](CONTRIBUTING.md) pour en savoir plus sur comment contribuer à ce dépôt.
 
 ---
 
