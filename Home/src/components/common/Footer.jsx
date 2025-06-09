@@ -1,11 +1,11 @@
-function Footer() {
+export default function Footer() {
     return (
-        <section>
-            <div className="p-4 flex justify-between items-center bg-gray-900 text-white">
-                <h1>Footer page</h1>
+        <section className="bg-gray-900 text-white">
+            <div className="p-4 w-[95vw] mx-auto flex justify-center items-center ">
+                <span>
+                    &copy; {new Date().getFullYear()} 2MJ-DEV. Tous droits réservés.
+                </span>
             </div>
         </section>
     );
 }
-
-export default Footer;
