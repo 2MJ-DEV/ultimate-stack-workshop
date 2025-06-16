@@ -34,7 +34,7 @@ async function run() {
     }
 
     const viteConfigContent = `
-import { defineConfig } from 'vite';
+    import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
@@ -55,13 +55,36 @@ export default defineConfig({
     // Overwrite App.jsx with Tailwind example
     const appJsxPath = path.join(projectPath, 'src/App.jsx');
     const appContent = `
-export default function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello Tailwind v4.1 + React!
-    </h1>
-  );
-}
+    export default function App() {
+      return (
+        <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
+          <div className="bg-white shadow-lg rounded-2xl p-8 max-w-md w-full">
+            <h1 className="text-3xl font-extrabold text-blue-600 mb-4">
+              🎉 Projet React + Vite + Tailwind CSS
+            </h1>
+            <p className="text-gray-700 mb-6">
+              Votre projet est prêt à l’emploi! Modifiez <code>App.jsx</code> pour commencer à développer.
+            </p>
+            <div className="flex gap-4">
+              <a
+                href="https://vitejs.dev"
+                target="_blank"
+                className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium"
+              >
+                Docs Vite
+              </a>
+              <a
+                href="https://tailwindcss.com/docs"
+                target="_blank"
+                className="bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-md text-sm font-medium"
+              >
+                Docs Tailwind
+              </a>
+            </div>
+          </div>
+        </div>
+      );
+    }
 `.trim();
     fs.writeFileSync(appJsxPath, appContent);
 

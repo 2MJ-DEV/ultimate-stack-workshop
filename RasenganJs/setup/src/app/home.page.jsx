@@ -1,86 +1,50 @@
 import { Link } from 'rasengan';
 import logo from '@/assets/logo.svg';
 import Image from '@rasenganjs/image';
+import Image1 from '../assets/téléchargement.jpg';
+import Image2 from '../assets/téléchargement (1).jpg';
+import Image3 from '../assets/téléchargement (3).jpg';
 
 const Home = () => {
   return (
     <section className="w-full h-full bg-white flex flex-col items-center py-8 px-[20px] md:px-[50px] xl:px-[200px] font-comfortaa">
-      <header className="flex justify-end items-center w-full">
-        <div className="flex items-center">
-          <span>Powered by</span>
-          <Link to="https://beta.rasengan.dev" target="_blank">
-            <Image src={logo} alt="Rasengan logo" width={120} height={40} />
-          </Link>
-        </div>
-      </header>
-
-      <div className="flex flex-col items-center mt-4">
+      
+      <div className="flex flex-col items-center mt-25">
         <h1 className="font-black text-[3rem] md:text-[4rem] text-center font-urbanist">
-          Welcome to <span className="text-primary">Rasengan</span>
+          Why brands keep <span className="text-zinc-400">coming back.</span>
         </h1>
-        <p className="text-lg mt-4">
-          To get started, edit the file{' '}
-          <code className="text-sm ml-2 font-medium">
-            src/app/home.page.jsx
-          </code>
-        </p>
       </div>
 
-      <div className="mt-8 flex flex-wrap justify-center gap-4">
-        <div className="flex flex-col p-4 rounded-md border-[1px] border-[#EFEFEF] max-w-[500px] md:w-[300px] lg:w-[400px]">
-          <h2 className="text-xl font-urbanist">Documentation</h2>
-          <p className="mt-2">
-            Find in-depth information about Rasengan features and API.
-          </p>
-          <a
-            href="https://beta.rasengan.dev/docs"
-            target="_blank"
-            className="mt-4 text-primary font-bold"
-          >
-            Read the Docs
-          </a>
+      <div className="grid grid-cols-3 gap-4 mt-8">
+        {/* Card----1 */}
+        <div className="border border-zinc-950/5 p-1 rounded-2xl flex flex-col items-center justify-center bg-white shadow-2xl">
+          <div className="h-60 w-full border border-zinc-950/5 rounded-2xl bg-white mb-4 flex items-center justify-center">
+            <img src={Image1} alt="" className="max-h-full max-w-full object-cover" />
+          </div>
+          <div className="mb-4">
+            <h2 className='font-bold text-lg'>Designs that convert</h2>
+            <p>Built for today, flexible for whhat's <br /> next</p>
+          </div>
         </div>
-
-        <div className="flex flex-col p-4 rounded-md border-[1px] border-[#EFEFEF] max-w-[500px] md:w-[300px] lg:w-[400px]">
-          <h2 className="text-xl font-urbanist">Learn</h2>
-          <p className="mt-2">
-            Learn about Rasengan in an interactive course with quizzes!
-          </p>
-          <a
-            href="https://beta.rasengan.dev/learn"
-            target="_blank"
-            className="mt-4 text-primary font-bold"
-          >
-            Take the Course
-          </a>
+        {/* Card----2 */}
+        <div className="border border-zinc-950/5 p-1 rounded-2xl flex flex-col items-center justify-center bg-white shadow-2xl">
+          <div className="h-60 w-full border border-zinc-950/5 rounded-2xl bg-white mb-4 flex items-center justify-center">
+            <img src={Image2} alt="" className="max-h-full max-w-full object-cover" />
+          </div>
+          <div className="mb-4 px-3">
+            <h2 className='font-bold text-lg'>Thoughtful, not trendy</h2>
+            <p>Our work is grounded in purpose, not passing fads</p>
+          </div>
         </div>
-
-        <div className="flex flex-col p-4 rounded-md border-[1px] border-[#EFEFEF] max-w-[500px] md:w-[300px] lg:w-[400px]">
-          <h2 className="text-xl font-urbanist">Examples</h2>
-          <p className="mt-2">
-            Discover and deploy boilerplate example Rasengan projects.
-          </p>
-          <a
-            href="https://github.com/rasengan-dev/rasenganjs-examples"
-            target="_blank"
-            className="mt-4 text-primary font-bold"
-          >
-            View Examples
-          </a>
-        </div>
-
-        <div className="flex flex-col p-4 rounded-md border-[1px] border-[#EFEFEF] max-w-[500px] md:w-[300px] lg:w-[400px]">
-          <h2 className="text-xl font-urbanist">Community</h2>
-          <p className="mt-2">
-            Join an active community of Rasengan users on GitHub.
-          </p>
-          <a
-            href="https://github.com/rasengan-dev/rasenganjs/discussions"
-            target="_blank"
-            className="mt-4 text-primary font-bold"
-          >
-            Join Github Discussions
-          </a>
+        {/* Card----3 */}
+        <div className="border border-zinc-950/5 p-1 rounded-2xl flex flex-col items-center justify-center bg-white shadow-2xl">
+          <div className="h-60 w-full border border-zinc-950/5 rounded-2xl bg-zinc-50 mb-4 flex items-center justify-center">
+            <img src={Image3} alt="" className="max-h-full max-w-full object-cover" />
+          </div>
+          <div className="mb-4 px-3">
+            <h2 className='font-bold text-lg'>Fast without the fuss</h2>
+            <p>A streamlined process. quick, clean, no chaos.</p>
+          </div>
         </div>
       </div>
     </section>

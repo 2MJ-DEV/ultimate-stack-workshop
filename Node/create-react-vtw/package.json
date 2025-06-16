@@ -1,7 +1,7 @@
 {
   "name": "create-react-vtw",
-  "version": "1.0.2",
-  "description": "CLI pour créer un projet React + Vite + Tailwind CSS v4.1",
+  "version": "1.0.5",
+  "description": "CLI pour créer un projet ReactJs + ViteJs + Tailwind CSS v4.1",
   "bin": {
     "create-react-vtw": "./bin/index.js"
   },
