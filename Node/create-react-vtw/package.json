@@ -1,9 +1,9 @@
 {
-  "name": "buildermania@latest",
-  "version": "1.0.5",
+  "name": "create-react-vtw",
+  "version": "1.0.8",
   "description": "CLI pour créer un projet ReactJs + ViteJs + Tailwind CSS v4.1",
   "bin": {
-    "buildermania@latest": "./bin/index.js"
+    "create-react-vtw": "./bin/index.js"
   },
   "type": "module",
   "keywords": [
