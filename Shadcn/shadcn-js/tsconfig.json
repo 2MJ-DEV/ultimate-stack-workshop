@@ -1,0 +1,12 @@
+// tsconfig.json
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "forceConsistentCasingInFileNames": true,
+      "strict": true
+    },
+    "include": ["src/**/*"]
+}
