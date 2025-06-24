@@ -1,16 +1,16 @@
 {
   "name": "create-react-vtw",
-  "version": "1.0.8",
+  "version": "1.0.13",
   "description": "CLI pour créer un projet ReactJs + ViteJs + Tailwind CSS v4.1",
   "bin": {
     "create-react-vtw": "./bin/index.js"
   },
   "type": "module",
   "keywords": [
-    "react",
-    "vite",
-    "tailwind",
-    "cli"
+    "ReactJs",
+    "ViteJs",
+    "Tailwindcss",
+    "CLI"
   ],
   "author": "Jules MUKADI",
   "license": "MIT",
