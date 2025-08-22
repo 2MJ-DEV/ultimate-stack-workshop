@@ -39,13 +39,9 @@ async function run() {
       stdio: "inherit",
     });
 
-    // Convert vite.config.js to vite.config.ts if needed
-    if (fs.existsSync("vite.config.js")) {
-      fs.renameSync("vite.config.js", "vite.config.ts");
-    }
-
+    // Écrase vite.config.js avec la config Tailwind
     const viteConfigContent = `
-    import { defineConfig } from 'vite';
+import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
@@ -56,7 +52,9 @@ export default defineConfig({
   ],
 });
 `.trim();
-    fs.writeFileSync("vite.config.ts", viteConfigContent);
+
+    fs.writeFileSync("vite.config.js", viteConfigContent);
+
 
     // Overwrite index.css
     const indexCssPath = path.join(projectPath, "src/index.css");
